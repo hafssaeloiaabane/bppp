@@ -1,0 +1,23 @@
+.cr-search-form {
+  position: relative;
+  color: #fff;
+    font-size: 14px;
+    width: 100%;
+    height: 55px;
+    border: 1px solid #fff;
+    padding-right: 60px;
+    outline: none;
+    padding-left: 33px;
+    font-style: italic;
+
+  &__icon-search {
+    position: absolute;
+    left: 8px;
+    
+  }
+
+  &__input {
+    /* stylelint-disable-next-line */
+    padding-left: 35px !important;
+  }
+}
